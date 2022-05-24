@@ -8,12 +8,12 @@
     la32r_toolchain
            |---src（存放工具链源码）
            |   |---la32r_binutils
-	   |   |---la32r_gcc-8.3.0
-	   |   |---la32r-Linux
-	   |   \---la32r_glibc-2.28
-	   |---la32r_toolchain_build.sh（交叉工具链制作脚本）
-	   |---obj（自动生成，存放各阶段构建文件及日志等）
-	   \---install（自动生成，存放二进制文件）
+           |   |---la32r_gcc-8.3.0
+           |   |---la32r-Linux
+           |   \---la32r_glibc-2.28
+           |---la32r_toolchain_build.sh（交叉工具链制作脚本）
+           |---obj（自动生成，存放各阶段构建文件及日志等）
+           \---install（自动生成，存放二进制文件）
 ```
 
  **【源码获取】（From 龙芯教育）** 
