@@ -7,7 +7,7 @@
 ```
     la32r_toolchain
            |---src（存放工具链源码）
-	   |   |---la32r_binutils
+           |   |---la32r_binutils
 	   |   |---la32r_gcc-8.3.0
 	   |   |---la32r-Linux
 	   |   \---la32r_glibc-2.28
