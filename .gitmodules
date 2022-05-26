@@ -10,3 +10,4 @@
 [submodule "src/la32r-Linux"]
 	path = src/la32r-Linux
 	url = https://gitee.com/loongson-edu/la32r-Linux.git
+	shallow = true
