@@ -79,6 +79,7 @@ make install install_root=$TARGET_SYSROOT
 popd
 
 echo "========= gcc_second ================"
+mkdir -p $TARGET_SYSROOT/usr/lib
 rm -rf $OBJ_DIR/gcc_stage2_for_build_linux_gnu
 mkdir $OBJ_DIR/gcc_stage2_for_build_linux_gnu
 pushd $OBJ_DIR/gcc_stage2_for_build_linux_gnu
